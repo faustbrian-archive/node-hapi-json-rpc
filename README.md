@@ -15,7 +15,7 @@ pnpm install @faustbrian/node-hapi-json-rpc
 ## Usage
 
 ```ts
-import * as plugin from "@faustbrian/node-hapi-json-rpc";
+import { plugin } from "@faustbrian/node-hapi-json-rpc";
 import Joi from "joi";
 
 await server.register({
